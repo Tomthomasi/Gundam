@@ -5,4 +5,7 @@ export default defineNuxtConfig({
 
   modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/icon", "@nuxt/ui"],
   css: ["~/assets/css/common.css"],
+  ui: {
+    colorMode: false
+  }
 });
